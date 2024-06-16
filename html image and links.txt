@@ -1,0 +1,17 @@
+ html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image with Caption and Source Link</title>
+</head>
+<body>
+    <figure>
+        <img src="your-image-url.jpg" alt="Description of your image">
+        <figcaption>Here is the caption for your image.</figcaption>
+    </figure>
+    
+    <p>Image source: <a href="https://source-of-your-image.com">Link to the source of the image</a></p>
+</body>
+</html>
