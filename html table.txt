@@ -1,0 +1,67 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weekly Schedule</title>
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
+</head>
+<body>
+
+<h2>Weekly Schedule</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Time Slot</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Morning</td>
+            <td>Yoga</td>
+            <td>Running</td>
+            <td>Swimming</td>
+            <td>Yoga</td>
+            <td>Cycling</td>
+        </tr>
+        <tr>
+            <td>Afternoon</td>
+            <td>Workout</td>
+            <td>Meeting</td>
+            <td>Workout</td>
+            <td>Workshop</td>
+            <td>Workout</td>
+        </tr>
+        <tr>
+            <td>Evening</td>
+            <td>Dinner</td>
+            <td>Reading</td>
+            <td>Movie</td>
+            <td>Shopping</td>
+            <td>Rest</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

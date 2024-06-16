@@ -1,0 +1,24 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Page</title>
+</head>
+<body>
+    <h1>Heading: Your Name</h1>
+    
+    <p>Paragraph: Introducing yourself, your interests, etc.</p>
+    
+    <h2>Hobbies:</h2>
+    <ul>
+        <li>Hobby 1</li>
+        <li>Hobby 2</li>
+        <li>Hobby 3</li>
+        <!-- Add more hobbies as needed -->
+    </ul>
+    
+    <p>Link to <a href="https://www.example.com">My Favorite Website</a></p>
+</body>
+</html>
