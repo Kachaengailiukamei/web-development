@@ -1,0 +1,59 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Example</title>
+    <style>
+        /* Some basic styles for demonstration */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section, article, aside, footer {
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Header Section</h1>
+        <p>This is the top section of the page.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Section Title</h2>
+        <p>This is a different content section.</p>
+    </section>
+
+    <article>
+        <h2>Article Title</h2>
+        <p>This is standalone content that is typically considered an article.</p>
+    </article>
+
+    <aside>
+        <h2>Aside Section</h2>
+        <p>This is related content or a sidebar.</p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 Example Company. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
