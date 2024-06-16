@@ -1,0 +1,80 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Top 5 Movies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        ul {
+            margin-bottom: 20px;
+        }
+        ul.movies {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        ul.movies li {
+            margin-bottom: 10px;
+        }
+        ul.details {
+            list-style-type: none;
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Top 5 Movies</h1>
+    <ol class="movies">
+        <li>
+            <strong>The Dark Knight</strong>
+            <ul class="details">
+                <li><strong>Year:</strong> 2008</li>
+                <li><strong>Main Actor:</strong> Christian Bale</li>
+                <li><strong>Description:</strong> A gritty and intense portrayal of Batman facing off against the Joker.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Inception</strong>
+            <ul class="details">
+                <li><strong>Year:</strong> 2010</li>
+                <li><strong>Main Actor:</strong> Leonardo DiCaprio</li>
+                <li><strong>Description:</strong> A mind-bending thriller about stealing secrets from within the subconscious during dreams.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>The Shawshank Redemption</strong>
+            <ul class="details">
+                <li><strong>Year:</strong> 1994</li>
+                <li><strong>Main Actor:</strong> Tim Robbins, Morgan Freeman</li>
+                <li><strong>Description:</strong> A tale of hope and friendship as two imprisoned men bond over several years, finding solace and eventual redemption through acts of common decency.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Interstellar</strong>
+            <ul class="details">
+                <li><strong>Year:</strong> 2014</li>
+                <li><strong>Main Actor:</strong> Matthew McConaughey</li>
+                <li><strong>Description:</strong> A space exploration film that explores the themes of love, sacrifice, and the survival of humanity.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Forrest Gump</strong>
+            <ul class="details">
+                <li><strong>Year:</strong> 1994</li>
+                <li><strong>Main Actor:</strong> Tom Hanks</li>
+                <li><strong>Description:</strong> The life story of a simple man from Alabama, showcasing his remarkable journey through decades of American history.</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
