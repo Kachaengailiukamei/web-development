@@ -1,0 +1,41 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Information Form</title>
+</head>
+<body>
+
+<h2>User Information Form</h2>
+
+<form action="/submit-form" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    
+    <label>Gender:</label><br>
+    <input type="radio" id="genderMale" name="gender" value="male">
+    <label for="genderMale">Male</label><br>
+    <input type="radio" id="genderFemale" name="gender" value="female">
+    <label for="genderFemale">Female</label><br>
+    <input type="radio" id="genderOther" name="gender" value="other">
+    <label for="genderOther">Other</label><br><br>
+    
+    <label for="country">Country:</label><br>
+    <select id="country" name="country">
+        <option value="USA">USA</option>
+        <option value="Canada">Canada</option>
+        <option value="UK">UK</option>
+        <option value="Germany">Germany</option>
+        <option value="France">France</option>
+        <option value="Japan">Japan</option>
+        <option value="India">India</option>
+        <!-- Add more options as needed -->
+    </select><br><br>
+    
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
