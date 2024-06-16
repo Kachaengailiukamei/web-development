@@ -1,0 +1,24 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Entities Example</title>
+</head>
+<body>
+    <h1>HTML Entities for Special Characters</h1>
+
+    <p>In HTML, certain characters have special meanings and need to be represented using HTML entities:</p>
+
+    <ul>
+        <li>&amp; - represents the ampersand character: &amp;</li>
+        <li>&lt; - represents the less-than sign: &lt;</li>
+        <li>&gt; - represents the greater-than sign: &gt;</li>
+        <li>&copy; - represents the copyright symbol: &copy;</li>
+        <li>&trade; - represents the trademark symbol: &trade;</li>
+    </ul>
+
+    <p>These entities ensure that these characters are displayed correctly in HTML and do not interfere with the markup language.</p>
+</body>
+</html>
